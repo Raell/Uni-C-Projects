@@ -1,14 +1,3 @@
-list.c
-
-2 sentinel nodes are used on the front and back of the linked list, with NULL on the back pointer of the front sentinel node and next pointer of the rear sentinel node
-
-struct list points to the element behind the current position.
-
-Front and end of the list can be found by checking for the null pointers in the sentinel nodes.
-
-For handling errors, assert is used to check if in front or back of the list.
-
-
 111dice.c
 
 This is a dice game with rules in: https://www.reddit.com/r/ProgrammingPrompts/comments/2mwokc/easybase_task_to_difficult_challengedice_game_111/
